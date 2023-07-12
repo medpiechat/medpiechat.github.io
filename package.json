@@ -2,6 +2,7 @@
   "name": "tesla-nitp",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://medpiechat.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
