@@ -46,7 +46,7 @@ import Faq from '../../components/HomePage/Faq';
 
 
 const HomePage = () => {
-  document.title = 'Tesla NIT Patna | Home';
+  document.title = 'MedPIE | Home';
   return (
     <div className='pt-16 bg-black'>
       <div className='justify-center flex items-center my-[5rem] lg:gap-1 md:gap-2 gap-6 flex-col text-5xl font-bold'>
@@ -56,7 +56,7 @@ const HomePage = () => {
         <div data-aos="fade-up" className='blob absolute'>
         </div>
 
-        <img data-aos="fade-up" src="./images/arc.png" className='h-[12rem] lg:my-16 md:my-10 my-0' alt="electric" />
+        {/* <img data-aos="fade-up" src="./images/arc.png" className='h-[12rem] lg:my-16 md:my-10 my-0' alt="electric" /> */}
       </div>
 
       {/* <div className='h-[110vh] w-[100%] relative items-center flex lg:flex-row md:flex-row flex-col-reverse'>
@@ -96,7 +96,7 @@ const HomePage = () => {
 
       <div className='lg:mx-[4rem] md:mx-[3rem] mx-[2rem]'>
         {/* <About /> */}
-        {/* <Team/> */}
+        <Team/>
       </div>
     </div>
   )

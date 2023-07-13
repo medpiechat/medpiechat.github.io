@@ -6,44 +6,44 @@ const Team = () => {
 
     const teams = [
         {
-            name: "Blockchain",
+            name: "Business",
             icon: "./images/blockchain.png"
         },
         {
-            name: "Core (EE)",
+            name: "Software",
             icon: "./images/electrical.png"
         },
-        {
-            name: "Web",
-            icon: "./images/web.png"
-        },
-        {
-            name: "Design",
-            icon: "./images/design.png"
-        },
-        {
-            name: "Content",
-            icon: "./images/content.png"
-        },
-        {
-            name: "PR & Marketing",
-            icon: "./images/marketing.png"
-        },
-        {
-            name: "Social Media",
-            icon: "./images/social.png"
-        },
-        {
-            name: "Event",
-            icon: "./images/event.png"
-        }
+        // {
+        //     name: "Web",
+        //     icon: "./images/web.png"
+        // },
+        // {
+        //     name: "Design",
+        //     icon: "./images/design.png"
+        // },
+        // {
+        //     name: "Content",
+        //     icon: "./images/content.png"
+        // },
+        // {
+        //     name: "PR & Marketing",
+        //     icon: "./images/marketing.png"
+        // },
+        // {
+        //     name: "Social Media",
+        //     icon: "./images/social.png"
+        // },
+        // {
+        //     name: "Event",
+        //     icon: "./images/event.png"
+        // }
     ]
 
 
 
     return (
         <div className='pt-20'>
-            <Heading1 details={"Join our vibrant community of builders, where collaboration fuels innovation and creativity thrives. Together, let's shape the future through our collective passion for creating, building, and making a positive impact in the world."} text1={"A community of"} text2={"builders"} />
+            <Heading1 details={"Collaborate with MedPIE Chat and making a positive impact in the healthcare community."} text1={"Full Healthcare"} text2={"Solution"} />
             <div className='flex items-center lg:flex-row md:flex-row flex-col justify-center lg:gap-x-16 md:gap-x-8 w-full mt-6'>
                 <div className='flex flex-col items-center justify-center gap-5 mt-5'>
                     {teams.slice(0, 4).map((team, idx) => <div data-aos="zoom-in" key={idx} className='flex lg:w-96 md:w-80 w-72 items-center bg-[#0a0a0a] border-gray-800 hover:border-gray-700 border p-2.5 rounded-2xl gap-4'>

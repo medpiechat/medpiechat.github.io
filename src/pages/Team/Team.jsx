@@ -6,14 +6,14 @@ import TeamCard from './TeamCard'
 
 
 const Team = () => {
-  document.title = 'Tesla NIT Patna | Team';
+  document.title = 'MedPIE | Team';
 
 
   const members = [
     {
       name: 'Xu Cao',
       position: 'Co-founder & CEO & Technologist',
-      image: '/public/images/xucao.jpg',
+      image: '/images/xucao.jpg',
       linkedin: 'https://www.linkedin.com/in/irohxu/',
       github: 'https://github.com/IrohXu',
       twitter: 'https://twitter.com/IrohXu',
@@ -24,7 +24,7 @@ const Team = () => {
     {
       name: 'Wenqian Ye',
       position: 'Co-founder & CTO',
-      image: '/public/images/wenqian.jpg',
+      image: '/images/wenqian.jpg',
       linkedin: 'https://www.linkedin.com/in/wenqian-yeh/',
       github: 'https://github.com/wenqian-ye',
       twitter: 'https://twitter.com/wy2029',
