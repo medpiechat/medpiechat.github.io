@@ -132,11 +132,11 @@ const NavBar = () => {
                                     }}
                                     className="hover:underline hover:border-blue-300  border-4 border-gray-900 py-1.5 w-[100%] pl-4 cursor-pointer  hover:bg-gray-700 text-left"
                                 >
-                                    Events
+                                    Demo
                                 </button>
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link style={{ textDecoration: "none" }} to="/projects">
                                 <button
                                     onClick={() => {
@@ -148,8 +148,8 @@ const NavBar = () => {
                                     Projects
                                 </button>
                             </Link>
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                             <Link style={{ textDecoration: "none" }} to="/gallery">
                                 <button
                                     onClick={() => {
@@ -161,7 +161,7 @@ const NavBar = () => {
                                     Gallery
                                 </button>
                             </Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link style={{ textDecoration: "none" }} to="/team">
                                 <button
@@ -175,7 +175,7 @@ const NavBar = () => {
                                 </button>
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link className="visited:text-white text-white" style={{ textDecoration: "none" }} to="/news">
                                 <button
                                     onClick={() => {
@@ -187,7 +187,7 @@ const NavBar = () => {
                                     Newsletter
                                 </button>
                             </Link>
-                        </li>
+                        </li> */}
 
                     </ul>
                 </div>
