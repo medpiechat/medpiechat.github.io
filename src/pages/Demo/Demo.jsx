@@ -57,14 +57,17 @@ import { EventCard } from '../../components/Cards/Card'
 
 // export default Demo
 
-const Demo = () => (
-  <iframe
-    title="My Streamlit App"
-    width="100%"
-    height="800px"
-    src="http://localhost:8501"  // replace with the URL of your Streamlit app
-    frameBorder="0"
-  />
-);
+const Demo = () => {
+  document.title = 'MedPIE | Chatbot Demo';
+
+  return (
+    <iframe
+      title="My Streamlit App"
+      width="100%"
+      height="800px"
+      src="https://github.com/medpiechat"  // replace with the URL of your Streamlit app
+    />
+  )
+}
 
 export default Demo;

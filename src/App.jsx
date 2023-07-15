@@ -10,6 +10,7 @@ import AdminLayout from './admin/components/AdminLayout';
 import ScrollToTop from './hooks/useScrollToTop';
 import AboutPartners from './pages/About/About_Partners';
 
+
 function App() {
 
   useEffect(() => {
