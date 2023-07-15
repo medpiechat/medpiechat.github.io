@@ -43,7 +43,7 @@ const Team = () => {
 
     return (
         <div className='pt-20'>
-            <Heading1 details={"Collaborate with MedPIE Chat and making a positive impact in the healthcare community."} text1={"Full Healthcare"} text2={"Solution"} />
+            <Heading1 details={"Collaborate with MedPIE Chat and making a positive impact in the healthcare community."} text1={"Full Healthcare"} text2={"AI Solution"} />
             <div className='flex items-center lg:flex-row md:flex-row flex-col justify-center lg:gap-x-16 md:gap-x-8 w-full mt-6'>
                 <div className='flex flex-col items-center justify-center gap-5 mt-5'>
                     {teams.slice(0, 4).map((team, idx) => <div data-aos="zoom-in" key={idx} className='flex lg:w-96 md:w-80 w-72 items-center bg-[#0a0a0a] border-gray-800 hover:border-gray-700 border p-2.5 rounded-2xl gap-4'>
