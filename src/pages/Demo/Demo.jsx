@@ -65,7 +65,7 @@ const Demo = () => {
       title="My Streamlit App"
       width="100%"
       height="800px"
-      src="https://github.com/medpiechat"  // replace with the URL of your Streamlit app
+      src="http://3.23.92.153:8501/"  // replace with the URL of your Streamlit app
     />
   )
 }
