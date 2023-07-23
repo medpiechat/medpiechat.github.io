@@ -61,12 +61,21 @@ const Demo = () => {
   document.title = 'MedPIE | Chatbot Demo';
 
   return (
-    <iframe
-      title="My Streamlit App"
-      width="100%"
-      height="800px"
-      src="http://3.23.92.153:8501/"  // replace with the URL of your Streamlit app
-    />
+    <div className='pt-16 min-h-screen'>
+      <Heading heading="MedPIE Chat Demo"></Heading>
+      <div className="paragraph-body">
+        <p data-aos="fade-up" >
+          Please provide your current chest X-ray and chat with the agent.
+        </p>
+
+        <iframe
+          title="MedPIE Chatbot"
+          width="100%"
+          height="800px"
+          src="http://3.23.92.153:8501/"  // replace with the URL of your Streamlit app
+        />
+      </div>
+    </div>
   )
 }
 
