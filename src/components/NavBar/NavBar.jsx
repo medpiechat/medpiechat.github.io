@@ -125,6 +125,7 @@ const NavBar = () => {
                         </li>
                         <li>
                             <Link style={{ textDecoration: "none" }} to="/events">
+                            {/* <Link style={{ textDecoration: "none" }} to="http://3.23.92.153:8501/"> */}
                                 <button
                                     onClick={() => {
                                         setMenu(false);
