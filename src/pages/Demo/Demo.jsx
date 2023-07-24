@@ -69,14 +69,14 @@ const Demo = () => {
         </p>
 
         <p data-aos="fade-up" >
-          <a href="http://3.23.92.153:8501/">Chat Bot Link</a>
+          <a href="http://www.medpie.chat:8501/">Chat Bot Link</a>
         </p>
 
         <iframe
           title="MedPIE Chatbot"
           width="100%"
           height="800px"
-          src="http://3.23.92.153:8501/"  // replace with the URL of your Streamlit app
+          src="http://www.medpie.chat:8501/"  // replace with the URL of your Streamlit app
         />
       </div>
     </div>
