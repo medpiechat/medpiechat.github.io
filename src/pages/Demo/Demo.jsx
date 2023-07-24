@@ -68,6 +68,10 @@ const Demo = () => {
           Please provide your current chest X-ray and chat with the agent.
         </p>
 
+        <p data-aos="fade-up" >
+          <a href="http://3.23.92.153:8501/">Chat Bot Link</a>
+        </p>
+
         <iframe
           title="MedPIE Chatbot"
           width="100%"
